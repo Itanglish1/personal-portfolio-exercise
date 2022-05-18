@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    color: rgb(221, 218, 218);
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h1,
+h2 {
+    font-size: 6rem;
+}
+
+h2 {
+    padding-top: 40rem;
+}
+
+h3 {
+    font-size: 4rem;
+    margin: auto;
+    width: 600px;
+    text-align: center;
+    border-bottom: 2px solid rgb(221, 218, 218);
+}
+
+footer {
+    background-color: #151722;
+    height: 10rem;
+    display: flex;
+    justify-content: space-around;
+    border-top: 5px solid rgb(179, 58, 58);
+}
+
+footer p {
+    font-size: 1.5rem;
+    padding-top: 2rem;
+}
+
+#navbar {
+    background-color: rgb(179, 58, 58);
+    height: 7rem;
+    text-align: right;
+    padding-top: 2rem;
+    position: fixed;
+    width: 100%;
+}
+
+#welcome-section {
+    padding-top: 40rem;
+}
+
+#projects {
+    height: 900px;
+    background-color: #467ab6;
+    padding-top: 10rem;
+}
+
+#contact,
+#welcome-section {
+    height: 900px;
+    background-color: #151722;
+}
+
+.nav-buttons {
+    font-size: 2.2rem;
+    margin-right: 4rem;
+    letter-spacing: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(221, 218, 218);
+}
+
+.top-p {
+    font-size: 2.6rem;
+    color: rgb(179, 58, 58);
+    font-weight: 100;
+}
+
+.bottom-p {
+    font-size: 1.6rem;
+}
+
+.bottom-p,
+.top-p {
+    margin-top: 1rem;
+    font-style: italic;
+    letter-spacing: 1px;
+    font-weight: 100;
+    word-spacing: 3px;
+}
+
+.media {
+    margin-top: 6rem;
+}
+
+.media a {
+    font-size: 2.5rem;
+    margin-left: 3rem;
+}
+
+.fa-brands,
+.fa-solid {
+    margin-right: 0.5rem;
+}
